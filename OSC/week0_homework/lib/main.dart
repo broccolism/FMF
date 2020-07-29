@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:week0_homework/View/sign_up_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(App());
 }
 
-class MyApp extends StatelessWidget {
+class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: SignUpScreen(),
+    );
   }
 }
