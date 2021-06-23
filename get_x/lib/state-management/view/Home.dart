@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_x/controller/CounterController.dart';
+import 'package:get_x/state-mangement/controller/CounterController.dart';
 
 import 'Next.dart';
 
@@ -60,7 +60,7 @@ class MyHomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
           child: Icon(Icons.navigate_next),
           onPressed: () {
-            Get.to(() => NextPage());
+            Get.to(NextPage());
           }),
     );
   }
