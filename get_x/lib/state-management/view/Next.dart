@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_x/state-mangement/controller/BuilderController.dart';
+import 'package:get_x/state-management/controller/BuilderController.dart';
 
 class NextPage extends StatelessWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_x/state-mangement/controller/CounterController.dart';
+import 'package:get_x/state-management/controller/CounterController.dart';
 
 import 'Next.dart';
 
