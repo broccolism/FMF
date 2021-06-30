@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_x/state-management/controller/CounterController.dart';
-import 'package:get_x/state-management/view/Next.dart';
+
+import 'Next.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
