@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
           child: Icon(Icons.navigate_next),
           onPressed: () {
-            Get.to(NextPage());
+            Get.to(() => NextPage());
           }),
     );
   }
