@@ -44,6 +44,7 @@ class TestComponentScreen extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
+                                fontFamily: 'Test',
                               ),
                             ),
                           ],
@@ -78,7 +79,9 @@ class TestComponentScreen extends StatelessWidget {
                       Text(
                         "5층 집은 어떻게 구성하는 게 좋을까?",
                         style: TextStyle(
-                            fontSize: 24, fontWeight: FontWeight.bold),
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'Pretendard'),
                       ),
                       Container(height: 10),
                       Text(
