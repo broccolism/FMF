@@ -40,11 +40,11 @@ class TestComponentScreen extends StatelessWidget {
                             ),
                             Container(width: 6),
                             Text(
-                              "haaana_aaa3",
+                              "haaana_aaa03",
                               style: TextStyle(
                                 fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'Test',
+                                fontWeight: FontWeight.w700,
+                                height: 1,
                               ),
                             ),
                           ],
@@ -67,7 +67,8 @@ class TestComponentScreen extends StatelessWidget {
                                   "AI 뷰티 검색은 잼페이스!",
                                   style: TextStyle(
                                     fontSize: 16,
-                                    fontWeight: FontWeight.normal,
+                                    fontWeight: FontWeight.w400,
+                                    height: 1,
                                   ),
                                 ),
                               ),
@@ -79,27 +80,35 @@ class TestComponentScreen extends StatelessWidget {
                       Text(
                         "5층 집은 어떻게 구성하는 게 좋을까?",
                         style: TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Pretendard'),
+                          fontSize: 24,
+                          fontWeight: FontWeight.w700,
+                          height: 1.3,
+                        ),
                       ),
                       Container(height: 10),
                       Text(
                         "사이드프로젝트에는 어느 정도의 강제성이 필요하다. 우리는 때론, 아니 아주 많이 다양한 곳에서 흐지부지한 사람이다. 연초 헬스장에 돈을 기부해본 경험, 토요일 꼭 필요한",
                         style: TextStyle(
-                            fontSize: 17, fontWeight: FontWeight.normal),
+                            fontSize: 17,
+                            fontWeight: FontWeight.normal,
+                            letterSpacing: -1,
+                            height: 1.6),
                       ),
                       Container(height: 72),
                       Text(
                         "신규 카페\n놀러오세요",
                         style: TextStyle(
-                            fontSize: 22, fontWeight: FontWeight.bold),
+                            fontSize: 22,
+                            fontWeight: FontWeight.bold,
+                            height: 1.2),
                       ),
                       Container(height: 18),
                       Text(
                         "없습니다. 학점이 같은 경우, 수강학점 수가 많은 순서, 전공과목 수가 많은 순서 등으로 이미 동점자가 없도록",
                         style: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.normal),
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal,
+                            height: 1.6),
                       ),
                       Container(height: 10),
                       Row(
@@ -167,13 +176,17 @@ class TestComponentScreen extends StatelessWidget {
                       Text(
                         "이런 경험들도 있어요\n그러게 말이에요",
                         style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
+                            fontSize: 18,
+                            fontWeight: FontWeight.w700,
+                            height: 1.27),
                       ),
                       Container(height: 10),
                       Text(
                         "안녕하세요. 오늘의집에서 두번째로 온라인 집들이를 하게 되었네요. 여전히 인테리어 디자인을 업으로 삼고 있습니다. 결혼을 준비하면서, 결혼을 한 후에도 서울에 있는 것을 당연하게 생각해왔는데 막상 진짜 집을 구하려하니 말도안되는 가격의 집값들이 저희의 기대를 와장창 깨주었습니다.",
                         style: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.w400),
+                            fontSize: 16,
+                            fontWeight: FontWeight.w400,
+                            height: 1.68),
                       ),
                       Container(height: 35),
                       Row(
@@ -191,7 +204,8 @@ class TestComponentScreen extends StatelessWidget {
                                   "집 구경하러 가기",
                                   style: TextStyle(
                                       fontSize: 16,
-                                      fontWeight: FontWeight.w600),
+                                      fontWeight: FontWeight.w600,
+                                      height: 1),
                                 ),
                               ),
                             ),
