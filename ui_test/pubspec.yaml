@@ -61,19 +61,46 @@ flutter:
   fonts:
     - family: Pretendard
       fonts:
-        # - asset: fonts/Pretendard-Black.otf
-        # - asset: fonts/Pretendard-Bold.otf
-        # - asset: fonts/Pretendard-ExtraBold.otf
-        # - asset: fonts/Pretendard-Light.otf
-        # - asset: fonts/Pretendard-Medium.otf
-        # - asset: fonts/Pretendard-Regular.otf
-        # - asset: fonts/Pretendard-SemiBold.otf
-        # - asset: fonts/Pretendard-Thin.otf
-        - asset: fonts/PretendardVariable.ttf
+        - asset: fonts/Pretendard-Black.otf
+          weight: 900
+        - asset: fonts/Pretendard-Bold.otf
+          weight: 700
+        - asset: fonts/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: fonts/Pretendard-Light.otf
+          weight: 300
+        - asset: fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: fonts/Pretendard-Thin.otf
+          weight: 100
+        - asset: fonts/Pretendard-ExtraLight.otf
+          weight: 200
+        # - asset: fonts/PretendardVariable.ttf
 
     - family: Test
       fonts:
         - asset: fonts/Test.ttf
+
+    - family: Noto
+      fonts:
+        - asset: fonts/NotoSansCJKkr-Black.otf
+          weight: 900
+        - asset: fonts/NotoSansCJKkr-Bold.otf
+          weight: 700
+        - asset: fonts/NotoSansCJKkr-Light.otf
+          weight: 200
+        - asset: fonts/NotoSansCJKkr-DemiLight.otf
+          weight: 300
+        - asset: fonts/NotoSansCJKkr-Medium.otf
+          weight: 500
+        - asset: fonts/NotoSansCJKkr-Regular.otf
+          weight: 400
+        - asset: fonts/NotoSansCJKkr-Thin.otf
+          weight: 100
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
